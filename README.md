@@ -29,3 +29,11 @@ Si quieres comprobar tu configuración, puedes usar el comando git config --list
 ```bash
     $ git config --list
 ```
+## Obteniendo un repositorio Git :hatching_chick:
+
+* Inicializando un repositorio
+Si estás empezando a seguir un proyecto existente en Git, debes ir al directorio del proyecto y usar el siguiente comando:
+```bash
+    $ git int
+```
+Esto crea un subdirectorio nuevo llamado .git, el cual contiene todos los archivos necesarios del repositorio – un esqueleto de un repositorio de Git. Todavía no hay nada en tu proyecto que esté bajo seguimiento.
