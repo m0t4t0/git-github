@@ -14,26 +14,26 @@ Deja de versionar tus proyectos usando tu propio sistema de control de versiones
 * Identidad
 Lo primero que deberás hacer cuando instales Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque los "commits" de Git usan esta información, y es introducida de manera inmutable en los commits que envías:
 ```bash
-    $ git config --global user.name "nombres apellidos"
-    $ git config --global user.email "correo@proveedor.com"
+    :computer: $ git config --global user.name "nombres apellidos"
+    :computer: $ git config --global user.email "correo@proveedor.com"
 ```
 
 * Editor
 Puedes elegir el editor de texto por defecto que se utilizará cuando Git necesite que introduzcas un mensaje. Si no indicas nada, Git usará el editor por defecto de tu sistema, que generalmente es Vim. Si quieres usar otro editor de texto como Nano, puedes hacer lo siguiente:
 ```bash
-    $ git config --global core.editor nano
+    :computer: $ git config --global core.editor nano
 ```
 
 * Comprobar configuración
 Si quieres comprobar tu configuración, puedes usar el comando git config --list para mostrar todas las propiedades que Git ha configurado:
 ```bash
-    $ git config --list
+    :computer: $ git config --list
 ```
 ## Obteniendo un repositorio Git :hatching_chick:
 
 * Inicializando un repositorio
 Si estás empezando a seguir un proyecto existente en Git, debes ir al directorio del proyecto y usar el siguiente comando:
 ```bash
-    $ git int
+    :computer: $ git int
 ```
 Esto crea un subdirectorio nuevo llamado .git, el cual contiene todos los archivos necesarios del repositorio – un esqueleto de un repositorio de Git. Todavía no hay nada en tu proyecto que esté bajo seguimiento.
