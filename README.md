@@ -9,7 +9,7 @@ Deja de versionar tus proyectos usando tu propio sistema de control de versiones
 * Utilizar Dominios Personalizados con GitHub Pages
 * Instalar Git en tu sistema operativo
 
-## Configuración Básica
+## Configuración Básica :hatching_chick:
 
 * Identidad
 Lo primero que deberás hacer cuando instales Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque los "commits" de Git usan esta información, y es introducida de manera inmutable en los commits que envías:
